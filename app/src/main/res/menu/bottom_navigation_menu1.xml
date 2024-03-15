@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Input Absensi"
+        android:icon="@drawable/absensi"
+        android:id="@+id/menu_absensi"
+        />
+    <item android:title="Riwayat Absensi"
+        android:icon="@drawable/view"
+        android:id="@+id/menu_view"
+        />
+</menu>

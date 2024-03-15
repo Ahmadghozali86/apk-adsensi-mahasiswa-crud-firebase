@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/warna_utama"
+        android:textStyle="bold"
+        android:text="PETUNJUK ABSENSI"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/absenlogo"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/warna_utama"
+        android:textStyle="italic"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:layout_marginEnd="20dp"
+        android:text="Anda diminta untuk menambahkan mahasiswa yang belum ada, lalu memilih keterangan kehadiran (Izin, Masuk, Sakit, Alfa) untuk setiap mahasiswa dengan mengklik tombol yang sesuai di bawah nama mahasiswa pada tampilan recycle view. Setelah memilih, Anda dapat mengirimkan absensi tersebut ke Firebase dengan menekan tombol Kirim Absensi. Jika ingin melakukan input absensi kembali, Anda perlu meninggalkan halaman input absensi dan kembali lagi ke halaman tersebut untuk memulai input absensi yang baru."
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        />
+    </LinearLayout>
+
+</ScrollView>

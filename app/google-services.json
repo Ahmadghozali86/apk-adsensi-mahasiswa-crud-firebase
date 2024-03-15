@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "2097098909",
+    "firebase_url": "https://presensimahasiswa-1aedf-default-rtdb.firebaseio.com",
+    "project_id": "presensimahasiswa-1aedf",
+    "storage_bucket": "presensimahasiswa-1aedf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2097098909:android:4179e51cfac9616c2fe474",
+        "android_client_info": {
+          "package_name": "com.example.absensi_mahasiswa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjUVQbHp1eXmVEHdTFXwxL37BBYu_J-lY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2097098909:android:22756e2289d887402fe474",
+        "android_client_info": {
+          "package_name": "com.example.presensimahasiswa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjUVQbHp1eXmVEHdTFXwxL37BBYu_J-lY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

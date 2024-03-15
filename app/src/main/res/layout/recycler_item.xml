@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/namaVIEW"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Nama Mahasiswa"
+            android:textColor="@color/warna_utama"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/hapus"
+            android:layout_marginStart="27dp"
+            android:layout_toRightOf="@id/namaVIEW"
+            android:src="@drawable/baseline_delete_forever_24"
+
+            />
+
+        <TextView
+            android:id="@+id/nimVIEW"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namaVIEW"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:maxLines="1"
+            android:text="Harga"
+            android:textColor="@color/warna_utama"
+            android:textSize="15sp" />
+
+        <!-- RadioGroup untuk RadioButton -->
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nimVIEW"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <!-- RadioButton untuk izin (I) -->
+            <RadioButton
+                android:id="@+id/radioButtonIzin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Izin"
+                android:textColor="@color/warna_utama" />
+
+            <!-- RadioButton untuk masuk (M) -->
+            <RadioButton
+                android:id="@+id/radioButtonMasuk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masuk"
+                android:textColor="@color/warna_utama" />
+
+            <!-- RadioButton untuk sakit (S) -->
+            <RadioButton
+                android:id="@+id/radioButtonSakit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sakit"
+                android:textColor="@color/warna_utama" />
+
+            <!-- RadioButton untuk alfa (A) -->
+            <RadioButton
+                android:id="@+id/radioButtonAlfa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alfa"
+                android:textColor="@color/warna_utama" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

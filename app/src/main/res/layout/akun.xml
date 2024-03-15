@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biodata Admin"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/circular_bg"
+            android:backgroundTint="@color/warna_utama"
+            android:src="@drawable/inputakun"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/profile_image_view"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Email"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:enabled="false"
+            android:id="@+id/emailmu" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Nama"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:enabled="false"
+            android:id="@+id/namamu"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Kelamin"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:enabled="false"
+            android:id="@+id/kelaminmu"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Nomor Induk Pegawai Negeri Sipil"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:enabled="false"
+            android:id="@+id/nipmu"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Pendidikan Terakhir"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:enabled="false"
+            android:id="@+id/pendidikanmu"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Foto Anda"
+                android:backgroundTint="@color/warna_utama"
+                android:id="@+id/profle_update_btn"/>
+
+            <ProgressBar
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:indeterminateTint="@color/warna_utama"
+                android:layout_gravity="center"
+                android:id="@+id/profile_progress_bar"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/logout_btn"/>
+
+
+    </LinearLayout>
+</ScrollView>
